@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: rgb(36,40,49);
+    color: white;
+    display: grid;
+    place-content: center;
+}
+header {
+    display: flex;
+
+    .activator {
+        padding: 1em;
+        border-radius: 100%;
+        cursor: pointer;
+        
+        
+        &:hover {
+            background: rgb(30,33,41);
+            
+        }
+    }    
+}
+
+
+img{
+    width: 100%;
+    max-width: 45px;
+}
+    
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+nav {
+    background: rgb(41,46,56);
+    border-radius: 5em;
+    padding: 5px;
+    clip-path: ellipse(100% 100% at -100% 100%);
+    &:hover{
+        background: rgb(4, 181, 235); 
+
+button{
+    display: block;
+    padding: .5em;
+    margin: 0 .5em;
+    border-radius: 50%;
+}
+    
+    &:hover{
+background: rgb(219, 6, 88);   
+opacity: inherit;
+
+
+
+ul{
+    display: flex;
+    position: round($number: 2);
+   
+
+
+li a {
+    display: block;
+    padding: .5em;
+    margin: 0 .5em;
+    border-radius: 50%;
+    
+    &:hover{
+background: rgb(2, 23, 143);
+    
+
+    
+}
+img {
+    opacity: 0;
+    transform: translateX(-10px);
+     }
+    }
+   }
+  }
+}
+}
+
+
